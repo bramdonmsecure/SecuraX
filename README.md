@@ -15,3 +15,4 @@ SecuraX is an advanced cybersecurity toolkit designed to help organizations and 
    cd SecuraX
 pip install -r requirements.txt
 python src/detection.py --logfile /var/log/auth.log
+python src/detection.py --logfile /var/log/auth.log
