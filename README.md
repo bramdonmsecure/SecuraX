@@ -7,10 +7,6 @@ SecuraX is an advanced cybersecurity toolkit designed to help organizations and 
 - 🛡️ Vulnerability scanning & analysis
 - 📊 Log monitoring & anomaly detection
 - ⚙️ Customizable security rules
-✅ Reads /var/log/auth.log for failed SSH login attempts.
-✅ Detects brute-force attacks (more than 5 failed attempts from an IP).
-✅ Logs alerts to a file (security.log).
-✅ Prints alerts to the console. 
 
 ## Installation
 1. Clone the repository:
@@ -35,55 +31,3 @@ import logging
 logging.basicConfig(filename="threats.log",
                     level=logging.INFO,
                     format="%(asctime)s - %(message)s")
-
-def analyze_log(file_path):
-    failed_attempts = {}
-import re
-import logging
-
-# Configure logging
-logging.basicConfig(filename='security.log', level=logging.INFO, format='%(asctime)s - %(message)s')
-
-def analyze_log(file_path):
-    failed_attempts = {}
-
-import re
-import logging
-
-# Configure logging
-logging.basicConfig(filename='security.log', level=logging.INFO, format='%(asctime)s - %(message)s')
-
-def analyze_log(file_path):
-    failed_attempts = {}
-import re
-import logging
-
-# Configure logging
-logging.basicConfig(filename='security.log', level=logging.INFO, format='%(asctime)s - %(message)s')
-def analyze_log(file_path):
-    failed_attempts = {}
-
-try:
-with open(file_path, "r") as log_file:
-for line in log_file:
-if "Failed password" in line:
-ip_match = re.search(r"\d+\.\d+\.\d+\.\d+", line)
-if ip_match:
-ip_address = ip_match.group(0)
-failed_attempts[ip_address] = failed_attempts.get(ip_address, 0) + 1
-
-# Set an alert threshold (e.g., more than 5 failed attempts)
-if failed_attempts[ip_address] > 5:
-alert_msg = f"Possible brute-force attack detected from IP: {ip_address}"
-print(alert_msg)
-logging.info(alert_msg)
-except FileNotFoundError:
-print(f"Error: The file {file_path} was not found. Check the file path and permissions.")
-except Exception as e:
-print(f"An error occurred: {e}")
-if __name__ == "__main__":
-log_file_path = "/var/log/auth.log"  # Ensure this path is correct for your system
-✅ Reads /var/log/auth.log for failed SSH login attempts.
-✅ Detects brute-force attacks (more than 5 failed attempts from an IP).
-✅ Logs alerts to a file (security.log).
-✅ Prints alerts to the console.
