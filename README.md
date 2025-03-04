@@ -31,3 +31,11 @@ import logging
 logging.basicConfig(filename="threats.log",
                     level=logging.INFO,
                     format="%(asctime)s - %(message)s")
+                    # SecuraX
+
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![License](https://img.shields.io/github/license/yourusername/SecuraX)
+![Build](https://img.shields.io/github/actions/workflow/status/yourusername/SecuraX/build.yml)
+![Issues](https://img.shields.io/github/issues/yourusername/SecuraX)
+
+SecuraX is an advanced cybersecurity toolkit designed to help organizations and individuals secure their digital infrastructure...
