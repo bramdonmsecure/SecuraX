@@ -38,3 +38,6 @@ logging.basicConfig(filename="threats.log",
 ![Issues](https://img.shields.io/github/issues/yourusername/SecuraX)
 
 SecuraX is an advanced cybersecurity toolkit designed to help organizations and individuals secure their digital infrastructure...
+- Python 3.8+
+- pip
+- Required Python packages: logging, re, etc.
