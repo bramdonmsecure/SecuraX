@@ -79,3 +79,7 @@ except Exception as e:
 print(f"An error occurred: {e}")
 if __name__ == "__main__":
 log_file_path = "/var/log/auth.log"  # Ensure this path is correct for your system
+✅ Reads /var/log/auth.log for failed SSH login attempts.
+✅ Detects brute-force attacks (more than 5 failed attempts from an IP).
+✅ Logs alerts to a file (security.log).
+✅ Prints alerts to the console.
