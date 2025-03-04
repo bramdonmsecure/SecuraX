@@ -7,6 +7,10 @@ SecuraX is an advanced cybersecurity toolkit designed to help organizations and 
 - 🛡️ Vulnerability scanning & analysis
 - 📊 Log monitoring & anomaly detection
 - ⚙️ Customizable security rules
+✅ Reads /var/log/auth.log for failed SSH login attempts.
+✅ Detects brute-force attacks (more than 5 failed attempts from an IP).
+✅ Logs alerts to a file (security.log).
+✅ Prints alerts to the console. 
 
 ## Installation
 1. Clone the repository:
