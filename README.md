@@ -39,3 +39,6 @@ python src/detection.py --logfile /var/log/auth.log
 [INFO] 2025-03-04 12:30:00 - Monitoring /var/log/auth.log for suspicious activity...
 [WARNING] Possible brute-force attack detected from IP: 192.168.1.10
 logging.basicConfig(filename="threats.log", level=logging.INFO, format="%(asctime)s - %(message)s")
+git clone https://github.com/your-repo/SecuraX.git
+cd SecuraX
+npm install
