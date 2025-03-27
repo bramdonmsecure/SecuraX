@@ -56,3 +56,6 @@ We welcome contributions! Please follow these steps:
 📞 Support
 
 For issues or feature requests, open an issue on the GitHub repository.
+git add README.md
+git commit -m "Updated README with improved documentation"
+git push origin main  # Adjust branch name if needed
