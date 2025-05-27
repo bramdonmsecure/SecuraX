@@ -43,6 +43,39 @@ Before using SecuraX, ensure you have the following installed:
 Clone the repository and install dependencies:
 
 ```bash
+
+---
+
+## 🖼 Screenshots
+
+Here’s a sneak peek at SecuraX in action:
+
+![Threat Detection Example](docs/screenshot-threat-detection.png)  
+*Monitoring logs and catching bad guys before they strike.*
+
+---
+
+## 🎥 Demo
+
+Want to see SecuraX live? Check out this quick demo walkthrough:  
+[SecuraX Demo Video](https://www.youtube.com/watch?v=example)  
+
+---
+
+## 🌍 Live Web Preview
+
+Try the web interface live (if applicable):  
+[https://securaX-live-preview.example.com](https://securaX-live-preview.example.com)  
+
+---
+
+## 🙌 Acknowledgments
+
+Big shout-out to the cybersecurity community and all contributors who help keep the digital world safe — including you!
+
+---
+
+
 git clone https://github.com/yourusername/SecuraX.git
 cd SecuraX
 pip install -r requirements.txt
