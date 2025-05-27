@@ -1,7 +1,7 @@
 # 🔐 SecuraX
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)
+![Python](https://img.shields.io/badge/python-3.8%2B-green.svg)
 ![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)
 
 ## 📖 Table of Contents
@@ -20,7 +20,7 @@
 
 ## 🔷 About
 
-**SecuraX** is an advanced cybersecurity toolkit designed to help organizations and individuals secure their digital infrastructure. It focuses on proactive threat detection and vulnerability management, providing essential tools for identifying and mitigating security risks across networks, systems, and applications.
+**SecuraX** is a powerful cybersecurity toolkit designed to help organizations and individuals secure their digital infrastructure. It focuses on proactive threat detection and vulnerability management, providing essential tools for identifying and mitigating security risks across networks, systems, and applications.
 
 ## 🚀 Features
 
