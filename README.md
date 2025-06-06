@@ -78,5 +78,17 @@ Big shout-out to the cybersecurity community and all contributors who help keep 
 
 git clone https://github.com/yourusername/SecuraX.git
 cd SecuraX
+
+## Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/bramdonmsecure/SecuraX.git
+cd SecuraX
+pip install -r requirements.txt
+npm install  # Only if a frontend or additional modules are needed
+
+
+
+
 pip install -r requirements.txt
 npm install  # Only if a frontend or additional modules are needed
